@@ -2,4 +2,10 @@
 
 class Cat
   def meow
-    attr_accesor 
+    attr_accesor :name
+  end
+  
+  def meow
+    puts "meow"
+  end
+end
